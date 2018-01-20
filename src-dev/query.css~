@@ -1,0 +1,35 @@
+#header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+.Query{
+font-family: Courier New, Courier;
+}
+#nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:800px;
+    width:100px;
+    float:left;
+    padding:5px;	      
+}
+#section {
+    text-align:center;
+    width:800px;
+    float:center;
+    padding:20px;
+    margin:auto;	 	 
+}
+#box {
+    width:500px;
+    height:300px;
+}
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;	 	 
+}

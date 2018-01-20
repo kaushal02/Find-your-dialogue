@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="insert.css">
+</head>
+
+<body>
+<div id="header">
+<h1>Find your episode</h1>
+</div>
+
+<div id="nav">
+<a href="main.html">Home</a><br>
+<a href="query.html">Query</a><br>
+<a href="insert.html">Update</a>
+</div>
+
+<form action="gather_info.php" method="post">
+<h2>Add a transcript</h2>
+<fieldset>
+Name: <input class="name" type="text" name="name"><br>
+Season: <input class="season" type="int" name="season"><br>
+Episode: <input class="season" type="int" name="episode"><br>
+Transcript: <textarea type="text" name="transcript" cols="40" rows="5"></textarea><br>
+<input type="submit" name="submit" value="Upload">
+</fieldset>
+</form>
+
+</body>
+</html>
+
